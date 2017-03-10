@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap/css/bootstrap.css">
+</head>
+<body>
+<header>
+    <a href="/index"><h1>My_IRC</h1></a>
+    <div id="header">
+
+    </div>
+    <nav class="navbar navbar-light bg-faded">
+        <ul class="nav nav-tabs">
+            <li role="presentation" class="dropdown first-menu">
+                <ul class="dropdown-menu under-first">
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div id="main">
+    <h3><%= alert %></h3>
+    <form method="post" action="/account">
+        <input id="login" type="text" name="login" placeholder="Votre login" value="<%= login %>">
+        <input type="email" name="email" placeholder="Votre email" value="<%= email %>">
+        <input id="password" type="text" name="password" placeholder="Votre mot de passe" value="<%= password %>">
+        <button type="submit">Modifier</button>
+    </form><br/><br/>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+<script src="javascripts/account.js" class="<%= login %>"></script>
+<script src="stylesheets/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

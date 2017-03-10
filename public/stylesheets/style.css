@@ -1,0 +1,148 @@
+html{
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #ffffff !important;
+  font-family: Roboto !important;
+}
+
+a {
+  color: #212121;
+  text-decoration: none;
+  transition: 200ms;
+}
+a:hover{
+  color: white;
+  background: #212121;
+  padding: 5px;
+}
+input{
+  color: white !important;
+}
+#main{
+  width: 500px;
+  height: auto;
+  margin: auto;
+  margin-top: 250px;
+}
+#main input{
+  margin: 20px;
+}
+#main_message{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 220px;
+}
+ul li a{
+  color: white;
+}
+header{
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  background: rgb(33, 33, 33);
+  text-align: center;
+  color: white !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+header h1{
+  color: white !important;
+  font-size: 50px;
+  text-shadow: 2px 2px 10px black;
+  display: inline;
+}
+#header{
+  display: inline-block;
+}
+#header img{
+  margin-left: 30px;
+}
+#header h3{
+  color: white !important;
+  font-size: 35px;
+  text-shadow: 2px 2px 10px black;
+  margin-left: 80px;
+}
+#header a{
+  color: white !important;
+  transition: 500ms;
+  padding: 20px;
+  background: gainsboro;
+  margin: 10px;
+}
+#header a:hover{
+  color: white;
+  background: black;
+}
+input{
+  border: 0 none;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgb(139, 139, 139);
+  color: rgb(0, 0, 0) !important;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 47px;
+  padding-right:100px;
+  margin-top: 15px;
+  outline: medium none;
+  text-indent: 46px;
+  width: 100%;
+}
+button{
+  padding: 20px;
+  background: rgba(33, 33, 33, 0.99);
+  border: 1px solid #f4f8ff;
+  border-radius: 10%;
+  transition: 300ms;
+  margin: 10px;
+  float: right;
+  color: white !important;
+}
+button:hover{
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  border: 1px solid #212121;
+  color: black !important;
+}
+
+
+input[type="text"] {
+  padding-top:0;
+  padding-bottom:0;
+  height: 60px;
+  vertical-align:middle;
+  background: #212121;
+  color: white !important;
+}
+input[type="password"] {
+  padding-top:0;
+  padding-bottom:0;
+  height: 60px;
+  vertical-align:middle;
+  background: #212121;
+  color: white !important;
+}
+input[type="email"] {
+  padding-top:0;
+  padding-bottom:0;
+  height: 60px;
+  vertical-align:middle;
+  background: #212121;
+  color: white !important;
+}
+.channels{
+  display: inline;
+  padding: 10px;
+}
+.active_channel{
+  background: #212121;
+  color: white;
+}
+

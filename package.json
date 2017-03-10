@@ -1,0 +1,25 @@
+{
+  "name": "socketio-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bson": "^0.5.6",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "^2.5.2",
+    "express": "~4.14.0",
+    "jade": "~1.11.0",
+    "jquery": "^3.1.1",
+    "jsdom": "^9.8.3",
+    "mongodb": "^1.4.40",
+    "monk": "^1.0.1",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0",
+    "sha1": "^1.1.1",
+    "socket.io": "^1.5.1"
+  }
+}

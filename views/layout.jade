@@ -1,0 +1,21 @@
+doctype html
+html
+head
+title= title
+link(rel='stylesheet', href='/stylesheets/style.css')
+script(type='text/javascript', src="/socket.io/socket.io.js")
+script(type='text/javascript', src='javascripts/client.js')
+<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+<script>
+var socket = io();
+$('form').submit(function(){
+socket.emit('chat message', $('#m').val());
+$('#m').val('');
+return false;
+});
+socket.on('chat message', function(msg){
+$('#messages').append($('<li>').text(msg));
+});
+</script>
+body
+block content

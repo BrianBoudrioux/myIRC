@@ -1,0 +1,44 @@
+form { padding: 3px; position: fixed; bottom: 0; left: 0; width: 100%}
+input{
+    border: 0 none;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgb(139, 139, 139);
+    color: rgb(0, 0, 0) !important;
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: 47px;
+    padding-right:100px;
+    margin-top: 15px;
+    outline: medium none;
+    text-indent: 46px;
+    width: 100%;
+}
+button{
+    padding: 20px;
+    background: rgba(255, 255, 251, 0.64);
+    border: 1px solid #f4f8ff;
+    border-radius: 10%;
+    transition: 300ms;
+    margin: 10px;
+    float: right;
+}
+button:hover{
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+    border: 1px solid #ffffff;
+    color: white;
+}
+
+
+input[type="text"] {
+    padding-top:0;
+    padding-bottom:0;
+    height: 60px;
+    vertical-align:middle;
+    color: white !important;
+    background: #212121 !important;
+}
+#messages { list-style-type: none; margin: 0; padding: 0; height: 400px; overflow-y: auto; background: rgba(0, 0, 0, 0)
+}
+#messages li { background: rgba(140, 139, 147, 0.71); padding: 25px 40px; }
+#messages li:nth-child(odd) { background: rgba(255, 255, 255, 0.71); }
